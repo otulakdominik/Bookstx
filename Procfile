@@ -1,3 +1,2 @@
 web: python manage.py runserver 0.0.0.0:$PORT --noreload
-release: python manage.py migrate --no-input
-web: gunicorn project_name.wsgi
+release: python manage.py migrate
