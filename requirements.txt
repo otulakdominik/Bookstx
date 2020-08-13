@@ -1,3 +1,6 @@
-django-environ,
-djangorestframework,
-django-filter,
+django == 3.1
+requests
+djangorestframework
+markdown
+django-filter
+django-environ

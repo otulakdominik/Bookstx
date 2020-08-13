@@ -23,8 +23,8 @@ class Categories(models.Model):
     )
 
     class Meta:
-        verbose_name = _('Categorie')
-        verbose_name_plural = _('Categories')
+        verbose_name = _('category')
+        verbose_name_plural = _('categories')
 
     def __str__(self):
         return self.name

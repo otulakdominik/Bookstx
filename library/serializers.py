@@ -8,6 +8,10 @@ class AuthorSerializer(serializers.ModelSerializer):
         fields = ('id', 'name')
 
 
+class BookSearchSerializer(serializers.Serializer):
+    title = serializers.CharField()
+
+
 class BookSerializer(serializers.ModelSerializer):
     authors = serializers.StringRelatedField(many=True)
     categories = serializers.StringRelatedField(many=True)
